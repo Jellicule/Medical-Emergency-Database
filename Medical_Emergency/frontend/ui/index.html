@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+	<head>
+		<title>911 Operator Database (Come up with more creative title?)</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<header>
+			<h1>911 Operator Database</h1>
+		</header>
+		<main>
+			<h2>Emergencies</h2>
+			<div class="button-panel">
+				<button id="insert-page-button" type="button" class="page-button">Add</button>
+				<button id="delete-page-button" type="button" class="page-button">Delete</button>
+				<button id="update-page-button" type="button" class="page-button">Edit</button>
+				<button id="select-page-button" type="button" class="page-button">Search (Select)</button>
+				<button id="having-page-button" type="button" class="page-button">View emergencies by hospital (Having)</button>
+				<button id="nested-page-button" type="button" class="page-button">View patient stay length by hospital (Nested)</button>
+			</div>
+			<h2>Hospitals</h2>
+			<div class="button-panel">
+				<button id="groupby-page-button" type="button" class="page-button">View hospital staff by specialty (Group by)</button>
+				<button id="join-page-button" type="button" class="page-button">View emergency addresses by hospital (Join)</button>
+			</div>
+			<h2>Dispatchers</h2>
+			<div class="button-panel">
+				<button id="division-page-button" type="button" class="page-button">View emergency responders by call centre (Division)</button>
+			</div>
+			<h2>View</h2>
+			<div class="button-panel">
+				<button id="project-page-button" type="button" class="page-button">View tables and filter (Project)</button>
+			</div>
+		</main>
+		<script src="../controller/index.js"></script>
+	</body>
+</html>
